@@ -1,7 +1,11 @@
 # simpleurlshortener
 A simple URL shortener The web app base on node js, PostgreSQL, and docker.
+The server will start with port `3000`
+** Run on local
+1. In root folder run `npm install`
+2. `npm start`
 
-build step:
+** build docker:
 1. install docker
   * mac : https://docs.docker.com/docker-for-mac/
   * windows: https://docs.docker.com/docker-for-windows/
@@ -10,7 +14,7 @@ build step:
 2. clone repository, and run the `./build.sh` in root folder, it will create an image named `server`.
 
   
-3. Run the docker compose command in root folder `docker-compose up -d`, it should created two containers `simpleurlshortener_server_1` `database` in your docker.
+3. Run the docker compose command in root folder `docker-compose up -d --force-recreate`, it should created two containers `simpleurlshortener_server_1` `database` in your docker.
 
 
 API Doc:
