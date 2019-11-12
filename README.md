@@ -4,9 +4,9 @@ The web app implement with node js, postgessql and docker.
 
 build step:
 1. install docker
-  mac : https://docs.docker.com/docker-for-mac/
-  windows: https://docs.docker.com/docker-for-windows/
-  Linux/ubuntu https://docs.docker.com/install/linux/docker-ce/ubuntu/
+  * mac : https://docs.docker.com/docker-for-mac/
+  * windows: https://docs.docker.com/docker-for-windows/
+  * Linux/ubuntu https://docs.docker.com/install/linux/docker-ce/ubuntu/
   
 2. clone repository, and run the `./build.sh` in root folder, it will create an image name server.
 
