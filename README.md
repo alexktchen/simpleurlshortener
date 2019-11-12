@@ -1,6 +1,5 @@
 # simpleurlshortener
-A simple url shortener
-The web app implement with node js, postgessql and docker.
+A simple URL shortener The web app base on node js, PostgreSQL, and docker.
 
 build step:
 1. install docker
