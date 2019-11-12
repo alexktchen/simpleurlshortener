@@ -8,7 +8,7 @@ build step:
   windows: https://docs.docker.com/docker-for-windows/
   Linux/ubuntu https://docs.docker.com/install/linux/docker-ce/ubuntu/
   
-2. clone repository, and run the build.sh in root folder, it will create an image name server.
+2. clone repository, and run the `./build.sh` in root folder, it will create an image name server.
 
   
 3. Run the docker compose command in root folder `docker-compose up -d`, it should created two containers in your docker.
