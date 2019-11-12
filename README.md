@@ -8,12 +8,12 @@ The server will start with port `3000`
 
 **Build docker containers**
 
-1. install docker
+1. Install docker
    * mac https://docs.docker.com/docker-for-mac/
    * windows https://docs.docker.com/docker-for-windows/
    * Linux/ubuntu https://docs.docker.com/install/linux/docker-ce/ubuntu/
   
-2. clone repository, and run the `./build.sh` in root folder, it will create an image named `server`.
+2. Clone repository, and run the `./build.sh` in root folder, it will create an image named `server`.
 
   
 3. Run the docker compose command in root folder `docker-compose up -d --force-recreate`, it should created two containers `simpleurlshortener_server_1` `database` in your docker.
