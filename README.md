@@ -64,7 +64,7 @@ API Doc:
 
 **Use Short Url**
 ----
-  This api will redirct encode url to the right url.
+  This API will redirect the encode URL to the right URL.
 
 * **URL**
 
